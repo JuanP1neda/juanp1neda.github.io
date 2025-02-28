@@ -1,0 +1,169 @@
+:root{
+    --color-1:black;
+    --color-2:#3C3D37;
+    --color-3:#697565;
+    --color-4:#ECDFCC;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--color-3);
+}
+header{
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: var(--color-4);
+}
+.imgHeader{
+    border: var(--color-2) solid 3px;
+    border-radius: 20px;
+    background-color: var(--color-4);
+    width: 100px;
+    margin: 10px 50px;
+}
+
+nav{
+    background-color: var(--color-2);
+    border: var(--color-4) solid 3px;
+    border-radius: 20px;
+    margin: 30px 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#modalNO{
+    border: red solid 5px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 260px; height: 260px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+    top: 30%;left: 41.6%;
+}
+.imgmodal{
+    width: 50px;
+    margin: 10px;
+}
+.ButtonModal{
+    border: red solid 2px;
+    border-radius: 20px;
+    background-color: var(--color-4);
+    width: 75px;
+    margin: 20px 0px;
+}
+.Button{
+    border: var(--color-1) solid 2px;
+    border-radius: 10px;
+    background-color: var(--color-4);
+    width: 70px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+    background-color: var(--color-4);
+    border: var(--color-1) solid 3px;
+    width: 280px;
+}
+.imgPortada{
+    width: 250px; height: 300px;
+}
+
+a{
+    color: var(--color-4);
+}
+footer{
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: var(--color-4);
+}
+
+ul{
+    list-style-type: none;
+}
+@media (max-width:780px){
+    nav{
+        margin: 30px 20px;
+    }
+    main{
+        margin: 10px 100px;
+    }
+    article{
+        width: 200px;
+        font-size: 13px;
+        margin: 10px 10px 20px 10px;
+    }
+    .imgPortada{
+        width: 170px; height: 220px;
+    }
+}
+@media (max-width:600px) {
+ .imgHeader{
+    margin: 10px;
+    width: 60px;
+ }
+ h1{
+    font-size: 23px;
+ }   
+ nav{
+    margin: 30px 20px;
+    height: 25px;
+ }
+ .Button{
+    width: 60px;
+    font-size: 11px;
+ }
+ main{
+    margin: 10px;
+ }
+ article{
+    margin: 5px 5px 20px 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 160px;
+ }
+ .imgPortada{
+    width: 150px; height: 190px;
+}
+
+.imgmodal{
+    width: 40px;
+}
+.ButtonModal{
+    width: 60px; height: 20px;
+    font-size: 10px;
+}
+#modalNO{
+    width: 215px; height: 215px;
+    padding: 10px;
+    top: 10%;left: 1%;
+    font-size: 11px;
+}
+.imgmodal{
+    width: 40px;
+}
+.ButtonModal{
+    width: 60px; height: 20px;
+    font-size: 10px;
+}
+footer{
+    font-size: 12px;
+}
+
+}
