@@ -221,43 +221,45 @@ dialog::backdrop{
 }
 @media (max-width:600px) {
  .imgHeader{
-    margin: 10px;
-    width: 60px;
+    margin: 15px;
+    width: 80px;
  }
  h1{
-    font-size: 15px;
+    font-size: 23px;
  }   
  nav{
+    height: 35px;
     margin: 30px 20px;
  }
  .Button{
-    width: 60px;
-    font-size: 11px;
+    width: 80px;
+    font-size: 15px;
     margin: 5px 0px;
  }
  .ButtonC{
-    font-size: 11px;
-    width: 55px;
+    font-size: 13px;
+    width: 70px;
  }
  .ButtonD{
-    font-size: 13px;
+    font-size: 15px;
  }
 
  main{
-    margin: 10px;
+    margin: 20px;
  }
 .imgModal{
     width: 35px;
 }
 article{
-    padding: 20px;
+    padding: 30px;
     margin: 0px;
     border: var(--color-1) solid 2px;
-    font-size: 11px;
+    font-size: 13px;
 }
 .modalBien{
     width: 150px;height: 150px;
     font-size: 12px;
+    top: -30%;
 }
 .Boton_modal_bien{
     font-size: 10px;
@@ -283,6 +285,7 @@ article{
 .modalMal{
     font-size: 12px;
     width: 180px; height: 180px;
+    top: -40%;
 }
 .Boton_modal_mal{
     font-size: 11px;
@@ -310,7 +313,7 @@ article{
     width: 200px;height: 200px;
  }
 footer{
-    font-size: 12px;
+    font-size: 15px;
     height: 70px;
 }
 }

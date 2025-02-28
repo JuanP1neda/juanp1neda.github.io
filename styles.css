@@ -149,8 +149,8 @@ dialog::backdrop{
         font-size: 20px;
     }
     .imgHeader{
-        width: 80px;
-        margin: 5px;
+        width: 100px;
+        margin: 30px;
     }
     
     nav{
@@ -158,26 +158,23 @@ dialog::backdrop{
         margin: 10px 20px 30px 20px;
      }
      .Button{
-        font-size: 10px;
-        width: 55px;
-        margin: 5px;
+        font-size: 13px;
+        width: 80px;
+        margin: 10px;
      }
     .articleTEXT{
         margin: 10px 60px 40px 60px;
         padding: 5px;
         text-align: center;
-        font-size: 11px;
+        font-size: 14px;
     }
     .imgArticle{
-        width: 135px;
-    }
-    .imgArticle{
-        width: 50px;
+        width: 100px;
     }
     .articleIMG{
-        width: 100px;
+        width: 150px;
         margin: 0px 5px 50px 5px;
-        font-size: 10px;
+        font-size: 16px;
     }
     #modalRompecabezas{
         width: 215px; height: 215px;
@@ -193,6 +190,6 @@ dialog::backdrop{
         font-size: 10px;
     }
     footer{
-        font-size: 11px;
+        font-size: 15px;
     }
 }

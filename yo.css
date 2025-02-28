@@ -86,35 +86,33 @@ footer{
         margin: 30px 20px;
     }
 @media (max-width:600px) {
-    header{
-        height: 90px;
-    }
+    
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .imgHeader{
-        width: 80px;
+        width: 100px;
         margin: 5px;
     }
     article{
         padding: 10px;
-        font-size: 11px;
+        font-size: 15px;
         width: 70%;
     }
     .img_logo{
-        width: 150px;
+        width: 180px;
     }
     nav{
-        height: 30px;
+        height: 35px;
         margin: 10px 20px 30px 20px;
      }
      .Button{
-        font-size: 10px;
-        width: 55px;
+        font-size: 15px;
+        width: 70px;
         margin: 5px;
      }
     footer{
-        font-size: 11px;
+        font-size: 15px;
     }
 }
 }

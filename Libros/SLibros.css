@@ -44,7 +44,6 @@ nav{
     padding: 10px;
     text-align: center;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
-    top: 30%;left: 41.6%;
 }
 .imgmodal{
     width: 50px;
@@ -116,52 +115,43 @@ ul{
 @media (max-width:600px) {
  .imgHeader{
     margin: 10px;
-    width: 60px;
+    width: 80px;
  }
  h1{
-    font-size: 23px;
+    font-size: 30px;
  }   
  nav{
     margin: 30px 20px;
-    height: 25px;
+    height: 30px;
  }
  .Button{
-    width: 60px;
-    font-size: 11px;
+    width: 80px;
+    font-size: 16px;
  }
  main{
     margin: 10px;
  }
  article{
     margin: 5px 5px 20px 5px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    width: 160px;
+    width: 170px;
  }
  .imgPortada{
-    width: 150px; height: 190px;
-}
-
-.imgmodal{
-    width: 40px;
-}
-.ButtonModal{
-    width: 60px; height: 20px;
-    font-size: 10px;
+    width: 170px; height: 210px;
 }
 #modalNO{
-    width: 215px; height: 215px;
-    padding: 10px;
-    top: 10%;left: 1%;
-    font-size: 11px;
+    font-size: 18px;
+    width: 300px;height: 300px;
 }
 .imgmodal{
-    width: 40px;
+    width: 60px;
 }
 .ButtonModal{
-    width: 60px; height: 20px;
-    font-size: 10px;
+    width: 100px;height: 30px;
+    font-size: 17px;
 }
+
 footer{
     font-size: 12px;
 }

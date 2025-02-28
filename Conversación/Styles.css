@@ -77,27 +77,29 @@ ul{
 }
 @media (max-width:600px) {
  .imgHeader{
-    margin: 10px;
-    width: 60px;
+    margin: 10px 20px;
+    width: 90px;
  }
  h1{
-    font-size: 19px;
+    font-size: 23px;
  }   
  nav{
+    height: 35px;
     margin: 30px 20px;
  }
  .Button{
-    font-size: 11px;
-    width: 55px;
+    font-size: 16px;
+    width: 70px;
     margin: 5px 0px;
  }
  main{
     margin: 20px;
-    font-size: 13px;
+    font-size: 18px;
     text-align: center;
  }
  footer{
-    font-size: 13px;
+    font-size: 16px;
+    top: 88%;
  }
 }
     
