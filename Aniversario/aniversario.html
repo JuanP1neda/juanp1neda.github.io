@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aniversario.css">
+    <link rel="icon" href="/img/contenido.ico">
+    <title>Nuevos Cambios</title>
+</head>
+<body>
+    <header>
+        <img class="imgHeader" src="/img/Corazon.png">
+        <h1>Nuevos Cambios</h1>
+        <img class="imgHeader" src="/img/Corazon.png">
+    </header>
+    <main>
+        <article>
+            <section class="carta" id="carta">
+                <h2>Carta y Nuevo Integrante</h2>
+                <p>
+                    Hola mi amor,
+                    <br>
+                    Hoy celebramos un año juntos, y no puedo evitar recordar todo lo que hemos vivido y compartido. Me siento realmente afortunado de tenerte a mi lado. Y ahora, estamos dando un paso emocionante: ¡estamos formando nuestra familia! Estás embarazada de 14 semanas, y no puedo contener la emoción de ser padre contigo.
+                    <br>
+                    Quiero que sepas que eres la razón por la que me despierto cada mañana con una sonrisa. A pesar de las dificultades que hemos enfrentado en nuestra relación, es innegable cuánto nos queremos, y tú me has mostrado tu amor de una manera que me enamora más cada día. Espero que nuestro futuro esté lleno de amor, felicidad y aventuras juntos. Sé que a veces sientes que has cometido errores y me has lastimado, y es cierto que hemos tenido momentos difíciles. Sin embargo, esas preocupaciones son cosas que puedes cambiar, y aunque esas heridas no son suficientes para apagar el amor que siento por ti, quiero que sepas que me gustaría que te esforzaras por mejorar en esos aspectos.
+                    <br>
+                    Sé que este camino no es el que imaginábamos a los 20, mientras comenzamos nuestras carreras. Al principio, la noticia sorprendió a nuestras familias, pero su apoyo incondicional nos ha dado fuerzas. Ahora, enfrentamos nuevos retos: tu ropa que ya no te queda, las citas médicas, la necesidad de un nuevo colchón y una alimentación diferente.
+                    <br>
+                    Aunque aún no puedo apoyarte económicamente como quisiera, estoy buscando trabajo sin descanso para poder darte todo lo que necesites. Pero lo que sí puedo ofrecerte es mi amor, mi apoyo incondicional y mi compromiso de ser el mejor compañero en esta aventura.
+                    <br>
+                    Nunca olvidaré la primera ecografía. Escuchar el latido de nuestro bebé fue el sonido más hermoso que he escuchado en mi vida. Ver su pequeña cabecita y cómo se movía me llenó de una alegría inmensa. ¡Vamos a ser padres!
+                    <br>
+                    Sé que esto es repentino y que puede ser difícil para ambos, pero estoy convencido de que juntos podemos superar cualquier obstáculo. Nuestra familia es lo más importante, y estoy dispuesto a darlo todo para que salgamos adelante.
+                </p>
+            </section>
+            <section class="formulario">
+                Mi amor, ¿te gustaría acompañarme en esta increíble aventura de formar una familia?
+                    <br>
+                    <input type="radio" id="si" name="respuestas">
+                    <label for="si">Si</label>
+                    <br>
+                    <input type="radio" id="no" name="respuestas">
+                    <label for="no">No</label>
+                    <br>
+                    <input class="button" type="button" value="Enviar" onclick="enviarRespuesta()">
+            </section>
+        </article>
+    </main>
+    <dialog  class="modalSI" id="modalSI">
+        <h3>Nos vemos el lunes amor</h3>
+        <p>Bueno amor el lunes me mudo, para empezar con mi nueva familia.</p>
+        <br>
+        <a href="/index.html"><input class="buttonSI" type="button" value="Salir"></a>
+    </dialog>
+    <dialog class="modalNO" id="modalNO">
+        <h3>Bueno amor lo intente</h3>
+        <p>Me entristece que no me has aceptado, pero no te preocupes, seguiré intentando.</p>
+        <a href="/index.html"><input class="buttonNO" type="button" value="Salir"></a>
+    </dialog>
+    <footer>
+        <h3>Derechos de Autor</h3>
+    </footer>
+</body>
+<script src="Script.js"></script>
+</html>
